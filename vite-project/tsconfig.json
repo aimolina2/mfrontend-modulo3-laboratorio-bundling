@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "lib": ["DOM", "ESNext"],
+    "moduleResolution": "bundler",
+    "module": "ESNext",
+    "noEmit": true,
+    "useDefineForClassFields": true,
+    "target": "esnext",
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "strict": true
+  },
+  "include": ["src", "src/globals.d.ts"]
+}
